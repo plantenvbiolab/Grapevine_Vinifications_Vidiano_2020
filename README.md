@@ -16,17 +16,17 @@
 For obtaining the code the users need to open a terminal and having the [GitHub tools](https://github.com/git-guides/install-git), git-clone or download the repository, and enter the base folder. E.g:
 
 ```
-$ git clone https://github.com/Fotisbs/Grapevine_Vinification_Microbiome.git
+$ git clone https://github.com/Fotisbs/Grapevine_Vinifications_Vidiano_2020.git
 ```
 
-In the case of the computational methods, with the "Grapevine_Vinification_Microbiome" folder as working directory, and assuming that the necessary software and R packages are installed, the used code can be executed as described in this Readme.md file. The necessary datasets for performing all sequencing based analysis can be downloaded implementing the code provided in the corresponding repository folders as explained below.
+In the case of the computational methods, with the "Grapevine_Vinifications_Vidiano_2020" folder as working directory, and assuming that the necessary software and R packages are installed, the used code can be executed as described in this Readme.md file. The necessary datasets for performing all sequencing based analysis can be downloaded implementing the code provided in the corresponding repository folders as explained below.
 
 ## Description of the order of executed scripts.
 
 Steps 0-2 concern the data retrieval from NCBI and preprocessing, while step 3 and the subfolders concern the actual data analysis for total fungi and bacteria. 
 
 0) First, it is necessary to download the sequencing data.
-To do so, you need to enter the "0.DownloadData" subfolder of "Fungi" and "Bacteria" folders accordingly and execute the "fetch_data.sh" bash script for each batch (01-11, this assumes that you are located at the working directory "Grapevine_Vinification_Microbiome"). The NCBI submitted amplicons are includes at those 11 batch/files.The script is based on the SRR accession numbers for each batch file and can be found in the 0.DownloadData folder as a.txt file.
+To do so, you need to enter the "0.DownloadData" subfolder of "Fungi" and "Bacteria" folders accordingly and execute the "fetch_data.sh" bash script for each batch (01-11, this assumes that you are located at the working directory "Grapevine_Vinifications_Vidiano_2020"). The NCBI submitted amplicons are includes at those 11 batch/files.The script is based on the SRR accession numbers for each batch file and can be found in the 0.DownloadData folder as a.txt file.
 Once the download is done, you need to combine all forward reads to a single file and all reverse reads to another file as well.
 ```
 for i in {01..11}
@@ -94,7 +94,7 @@ tar vxf *.gz
 Bacteria Vinification Microbiome Quality-Classification-Phyloseq Object.r
 cd ../../
 ```
-3) Data analysis folder include subfolders for each analysis graphs supplied at the researched article "Vineyard-mediated factors are still operative in spontaneous and commercial fermentations shaping the vinification microbiome and affecting the antioxidant and anticancer properties of wines". Subfolders contain the R script to be executed for "Fungi" and "Bacteria" accordingly. In same cases the outcome graphs were digitally corrected for aesthetics reasons only. 
+3) Data analysis folder include subfolders for each analysis graphs supplied at the researched article "Spontaneous vinification supports different microbiota, volatilome and leads to wines with different sensory attributes compared to vinifications inoculated with commercial and indigenous to Vidiano cultivar Saccharomyces cerevisiae". Subfolders contain the R script to be executed for "Fungi" and "Bacteria" accordingly. In same cases the outcome graphs were digitally corrected for aesthetics reasons only. 
 ```
 
 3a.) Run Bar Plots analysis
