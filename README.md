@@ -1,12 +1,8 @@
-# Grapevine_Vinifications_Vidiano_2020
-
 # ***Spontaneous vinification supports different microbiota, volatilome and leads to wines with different sensory attributes compared to vinifications inoculated with commercial and indigenous to Vidiano cultivar Saccharomyces cerevisiae ***
 
-### By Bekris F. <sup>1+</sup>, Lola D. <sup>2+</sup>, Papadopoulou E. <sup>1</sup>, Vasileiadis S. <sup>1+</sup>, Paramithiotis S. <sup>3</sup>, Kotseridis Y. <sup>2*</sup>, Karpouzas D.G <sup>1*</sup>
+### By Bekris F. <sup>1</sup>, Lola D. <sup>2</sup>, Papadopoulou E. <sup>1</sup>, Vasileiadis S. <sup>1+</sup>, Paramithiotis S. <sup>3</sup>, Kotseridis Y. <sup>2*</sup>, Karpouzas D.G <sup>1*</sup>
 
 ### (\* corr. author)
-
-Fotiοs Bekris,a Despina Lola,b Elena Papadopoulou,a Sotirios Vasileiadis,a Spiros Paramithiotis,c Yorgos Kotseridis,b* Dimitrios G. Karpouzas,a*
 
 <sup>1</sup> University of Thessaly, Department of Biochemistry and Biotechnology, Laboratory of Plant and Environmental Biotechnology, 41500 Viopolis – Larissa, Greece
 
